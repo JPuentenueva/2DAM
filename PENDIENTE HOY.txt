@@ -1,0 +1,8 @@
+PARA HOY
+
+1.Resumen Odoo tema 3 X
+2.Ejercicios jQuery (Notas de colores, Pull&Bear y Mi Despensa)
+3.Multipart X
+4.Resumenes programacion reactiva XX
+5.Actividades Spring X
+6.Cliente FTP

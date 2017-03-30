@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tracker</string>
+    <string-array name="lapsos">
+        <item>5 seg</item>
+        <item>10 seg</item>
+        <item>15 seg</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+APP ANDROID TRACKER:
+
+-Activación del GPS
+-Lapso de tiempo entre cada registro de posición configurable
+-Registrar latitud, longitud, fecha y hora -> Requiere el API
+-Registrar el estado de la batería -> Requiere del API

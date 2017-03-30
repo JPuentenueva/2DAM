@@ -1,0 +1,3 @@
+Google Maps -> AIzaSyBZDAxyqhq6pGij9Gckg9Izdl6KRGAhQGE
+Google Places -> AIzaSyBwZ60_83Uo8Ry1ohKeI4nEHDJq22GeY5c
+OpenWeather -> 80da6c8a5383f2c64dde94f5990e8a93 (appid)

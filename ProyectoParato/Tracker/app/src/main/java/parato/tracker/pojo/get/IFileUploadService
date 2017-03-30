@@ -1,0 +1,27 @@
+package com.example.android.camera2basic.Interfaces;
+
+
+import com.example.android.camera2basic.Pojos.ListFiles;
+
+import okhttp3.MultipartBody;
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.http.GET;
+import retrofit2.http.Multipart;
+import retrofit2.http.POST;
+import retrofit2.http.Part;
+
+/**
+ * Created by imcalvo on 13/01/2017.
+ */
+
+public interface IFileUploadService {
+    String ENDPOINT = "http://www.salesianos-triana.com/dam/xml/upload/";
+
+    @Multipart
+    @POST("upload.php")
+    Call<ResponseBody> upload(@Part MultipartBody.Part file);
+
+    @GET("list.php")
+    Call<ListFiles> list();
+}

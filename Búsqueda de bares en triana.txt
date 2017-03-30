@@ -1,0 +1,13 @@
+https://maps.googleapis.com/maps/api/place/autocomplete/json?
+location=37.380534, -6.007787&
+radius=500& (pedir en el formulario)
+types=bar&
+name=triana& (pedir en el formulario)
+key=AIzaSyBwZ60_83Uo8Ry1ohKeI4nEHDJq22GeY5c
+language=es
+
+(a mostrar):
+name
+rating
+opennow(con un icono)
+vicinity
