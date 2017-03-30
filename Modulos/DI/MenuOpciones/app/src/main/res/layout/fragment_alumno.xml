@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/iconoUsuario"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_user"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:maxWidth="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/iconoUsuario"
+        android:text="Nombre"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/curso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nombre"
+        android:layout_below="@+id/nombre"
+        android:maxWidth="90dp"
+        android:text="Curso"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/nota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nombre"
+        android:layout_toRightOf="@+id/nombre"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:text="8.1"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignBottom="@+id/curso"/>
+
+    <ImageButton
+        android:id="@+id/btnEditar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/nota"
+        android:layout_alignBottom="@+id/nota"
+        android:layout_toLeftOf="@+id/btnEliminar"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray"
+        android:src="@android:drawable/ic_menu_edit"/>
+
+    <ImageButton
+        android:id="@+id/btnEliminar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/nota"
+        android:layout_alignBottom="@+id/nota"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray"
+        android:src="@android:drawable/ic_delete"/>
+</RelativeLayout>

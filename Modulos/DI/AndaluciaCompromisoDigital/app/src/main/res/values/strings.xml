@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndaluciaCompromisoDigital</string>
+    <string name="campo1_nombre">Nombre:</string>
+    <string name="campo2_apellidos">Apellidos:</string>
+    <string name="campo3_correoE">Correo electrónico:</string>
+    <string name="campo4_nif">NIF/NIE</string>
+    <string name="campo5_discapacidad">Discapacidad (si la hay):</string>
+    <string name="campo6_tlfn">Teléfono:</string>
+    <string name="campo7_fecha">Fecha de nacimiento:</string>
+</resources>

@@ -1,0 +1,7 @@
+#Wed Nov 02 13:19:48 CET 2016
+base.0=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\AD\\PuentenuevaSanchezJoseMariaExT1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c85479c5b4cb84d77f93067d52dbcd737cced3a6
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\AD\\PuentenuevaSanchezJoseMariaExT1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b8336f61192aafa8db90b253d2635112b7ed5824\\classes.dex
+base.1=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\AD\\PuentenuevaSanchezJoseMariaExT1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b8336f61192aafa8db90b253d2635112b7ed5824
+file.0=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\AD\\PuentenuevaSanchezJoseMariaExT1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c85479c5b4cb84d77f93067d52dbcd737cced3a6\\classes.dex

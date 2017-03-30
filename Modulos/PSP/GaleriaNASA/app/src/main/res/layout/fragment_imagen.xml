@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageViewElemento"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:text="TextView"
+        android:id="@+id/textViewNombreImagen"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewElemento"
+        android:layout_toEndOf="@+id/imageViewElemento"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewFechaImagen"
+        android:textSize="14sp"
+        android:textColor="?android:attr/panelColorForeground"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textViewNombreImagen"
+        android:layout_below="@+id/textViewNombreImagen"/>
+</RelativeLayout>

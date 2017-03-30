@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#circulo{
+  display: block;
+  float: left;
+  width: 450px;
+  height: 450px;
+  border-radius: 100%;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-image: url("../imgs/orbe.jpg");
+}
+
+#contenedor{
+	margin: 10px auto;
+	width: 100%;
+	height: 115px;
+  margin-top: 170px;
+}
+
+.opciones{
+  display: block;
+  float: left;
+  width: 350px;
+  margin-top: 40px;
+  margin-left: 68px;
+}
+
+.tiempo{
+  display: block;
+  float: left;
+  width: 100%;
+  margin-left: 8px;
+}
+
+.reloj{
+	float: left;
+	font-size: 66px;
+	font-family: Courier,sans-serif;
+	color: #363431;
+  text-align: center;
+}
+.boton{
+  display: block;
+  float: left;
+	outline: none;
+	border: 1px solid #363431;
+	color: white;
+	width: 65px;
+	height: 65px;
+	text-shadow: 0px -1px 1px black;
+	font-size: 12px;
+	border-radius: 100%;
+	font-family: Helvetica;
+	cursor: pointer;
+  margin-right: 20px;
+	background-image: linear-gradient(#3aad02,#2c6f05);
+}
+.boton:active{
+	background-image: linear-gradient(#2c6f05,#3aad02);
+}
+.boton:hover{
+	box-shadow: 0px 0px 14px #3aad02;
+}

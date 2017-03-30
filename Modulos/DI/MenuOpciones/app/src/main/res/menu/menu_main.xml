@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="di.menuopciones.MainActivity">
+    <item android:id="@+id/action_buscar_alumno"
+        android:title="Buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_anyadir_alumno"
+        android:title="Añadir"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_actualizar"
+        android:title="Actualizar"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/action_editar_alumno"
+        android:title="Activar edición"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/action_logout"
+        android:title="Salir"
+        android:orderInCategory="3"/>
+</menu>

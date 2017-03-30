@@ -1,0 +1,39 @@
+PSP
+
+-API en Spring + Cliente en Android T4
+
+AD
+
+-Introducción a las expresiones lambda T4 
+-Catalogo de productos T5
+-MarketMet T5
+
+SGE
+
+-(1) ¿En qué consiste la estrategia o metodología CRM? T3
+-Nursing Home (1): Gestión de lavandería T4
+
+DI
+
+-Teclado Javascript T5 X
+-Pullandbear: precio total T5
+-Cronómetro / Cuenta atrás T5 X
+-Google Keep - notas de colores T5 X
+-Google Keep: añadir notas T5 X
+-jQuery UI: MiDespensa T5 ???
+-Proyecto conjunto PMDM + DI T6 
+-Sketching App FTP T7 
+
+PMDM
+
+-Proyecto FTP Client: conexión + listado de ficheros T4 
+-Proyecto FTP definitivo T4 
+-App Android Firebase T4 
+
+EIE
+
+-Resumen del Tema 6
+-Contratos de Trabajo T7
+-Resumen del Tema 8
+-Resumen Tema 11
+-PLAN DE EMPRESA INACABADO

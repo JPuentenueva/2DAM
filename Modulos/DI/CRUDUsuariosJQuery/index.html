@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Usuarios</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/round-about.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<body>
+
+        <!-- Team Members Row -->
+        <div class="row" id="listaUsuarios">
+            <div class="col-lg-12">
+                <h2 class="page-header">Usuarios</h2>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center" id="user-1">
+                <img class="img-circle img-responsive img-center" src="imgs/userimage.jpg" width="200px" alt="">
+                <h3><span id="nombre-1">John Smith</span>
+                    <small id="email-1">JohnSmith@chachimail.com</small>
+                </h3>
+                <p>Tlfn: <span id="telefono-1">665 789 551</span></p>
+                <input class="btnEditarUsuario" idu="1" type="image" src="imgs/edit.png" width="25px" height="25px" /> &nbsp &nbsp 
+                <input class="btnEliminarUsuario" idu="1" type="image" src="imgs/delete.png" width="25px" height="25px" />
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center" id="user-2">
+                <img class="img-circle img-responsive img-center" src="imgs/userimage.jpg" width="200px" alt="">
+                <h3><span id="nombre-2">Philipo</span>
+                    <small id="email-2">Philipo@chachimail.com</small>
+                </h3>
+                <p>Tlfn: <span id="telefono-2">665 789 541</span></p>
+                <input class="btnEditarUsuario" idu="2" type="image" src="imgs/edit.png" width="25px" height="25px" /> &nbsp &nbsp 
+                <input class="btnEliminarUsuario" idu="2" type="image" src="imgs/delete.png" width="25px" height="25px" />
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center" id="user-3">
+                <img class="img-circle img-responsive img-center" id="image" src="imgs/userimage.jpg" width="200px" alt="">
+                <h3><span id="nombre-3">Kylo Ren</span>
+                    <small id="email-3">Kyloscuro@chachimail.com</small>
+                </h3>
+                <p>Tlfn: <span id="telefono-3">665 789 531</span></p>
+                <input class="btnEditarUsuario" idu="3" type="image" src="imgs/edit.png" width="25px" height="25px"/> &nbsp &nbsp 
+                <input class="btnEliminarUsuario" idu="3" type="image" src="imgs/delete.png" width="25px" height="25px" />
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center" id="user-4">
+                <img class="img-circle img-responsive img-center" src="imgs/userimage.jpg" width="200px" alt="">
+                <h3><span id="nombre-4">Kaiser Sosé</span>
+                    <small id="email-4">ElCojoInocente@chachimail.com</small>
+                </h3>
+                <p>Tlfn: <span id="telefono-4">665 789 521</span></p>
+                <input class="btnEditarUsuario" idu="4" type="image" src="imgs/edit.png" width="25px" height="25px"/> &nbsp &nbsp 
+                <input class="btnEliminarUsuario" idu="4" type="image" src="imgs/delete.png" width="25px" height="25px" />
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center" id="user-5">
+                <img class="img-circle img-responsive img-center" src="imgs/userimage.jpg" width="200px" alt="">
+                <h3><span id="nombre-5">Flash Fofo</span>
+                    <small id="email-5">FlashFoX2@chachimail.com</small>
+                </h3>
+                <p>Tlfn: <span id="telefono-5">665 789 511</span></p>
+                <input class="btnEditarUsuario" idu="5" type="image" src="imgs/edit.png" width="25px" height="25px"/> &nbsp &nbsp 
+                <input class="btnEliminarUsuario" idu="5" type="image" src="imgs/delete.png" width="25px" height="25px" />
+            </div>
+        </div>
+        <!-- /.container -->
+
+    <div class="modal fade" id="myModal" idusuario="0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Editar Usuario</h4>
+                </div>
+                <div class="modal-body">
+                    <label>Nombre: </label><input id="modalName" type="text" name="nombre"> <br>
+                    <label>Email: </label><input id="modalMail" type="email" name="email"> <br>
+                    <label>Teléfono: </label><input id="modalPhone" type="text" name="telefono" maxlength="9">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="btnGuardarCambios">Save changes</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

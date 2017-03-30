@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_ba6e243cf939f31c3a3b6fbf11af4a78ae5c2f79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_7ef2b107a53cd82156d93e3529e2f7c895015fbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_6e47cdc9baa9dff5c0497bf189afefa66e4b8261\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_95066c0b0443b831ba35186cde0bc0f182ea063e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_78b459a10f125f2363a5cc6925b386ed19143461\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_98575a9a5b6b413ad2b680047eb8a4244c8aa03b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_8b8435008780516e0d2b6e99ce75456ecd8ff443\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_343df26dc1f4acf4f3263a7dd8c349f545d3fdb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_60b7843ced41197ad4fdb1a05ccbe942c290a677\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_7246d3664cb08f4e18805f3e83e5fde9b230393d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_ca688b8df9b692d6e09c6a99bd540dbdd53be9cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_e950d3ca94a3c4359fa4c35b63409b3915f92e5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_354cb75365188553c173787ba4cea92e44bd226c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="156196b5cc32de5a7b5e083fae94d86e7a4e2721">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_511c26cfa7d4efa82bfcdf1c16440152a455c958\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e2d17dee5c25fb9a2225532b5708ba9d8508956b">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a631ee262d29ea7f0ab425ac0e5aa2dbfd9f5547\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_f4a4b5e29fb289334d76f5ff57ab459e0acccee5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\jmpuentenueva\Documents\GitHub\2DAM\Modulos\PMDM\PuentenuevaSanchezJoseMariaExADT1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_9d2139f811d616c41a6cd68a7df8f5f5173f7e05\classes.dex" />
+    </item>
+
+</items>

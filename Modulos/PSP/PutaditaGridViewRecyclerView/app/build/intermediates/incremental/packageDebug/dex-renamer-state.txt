@@ -1,0 +1,7 @@
+#Thu Nov 10 13:14:40 CET 2016
+base.0=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\PSP\\PutaditaGridViewRecyclerView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b39dc0501003bc6bf90fcd30f82290aec49385a4
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\PSP\\PutaditaGridViewRecyclerView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4f2ba7101b1172d36f219089eaba02e3f59f6863\\classes.dex
+base.1=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\PSP\\PutaditaGridViewRecyclerView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4f2ba7101b1172d36f219089eaba02e3f59f6863
+file.0=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\PSP\\PutaditaGridViewRecyclerView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b39dc0501003bc6bf90fcd30f82290aec49385a4\\classes.dex

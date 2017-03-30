@@ -1,0 +1,45 @@
+.row {
+  background: url("../imgs/bloc.jpg");
+  min-height: 550px;
+  border: none;
+}
+
+.labelColor {
+  margin-left: 10px;
+
+}
+
+.cajaInput textarea {
+  display: block;
+  float: left;
+  width: 80%;
+  resize: none;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.cajaInput input {
+  display: block;
+  float: left;
+  vertical-align: top;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.cajaInput div {
+  display: block;
+  float: right;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 10px;
+}
+
+.cajaInput div label{
+    display: block;
+    float: left;
+}
+
+.cajaInput div input{
+
+}

@@ -1,0 +1,7 @@
+#Wed Nov 02 14:27:37 CET 2016
+base.0=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\PMDM\\SerializerBasico\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_8ae74bdc7b407a691f0690aa4463f0f7caa2612a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\PMDM\\SerializerBasico\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_122f3f875f15ed2d23a706ffaf408d1714e51d29\\classes.dex
+base.1=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\PMDM\\SerializerBasico\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_122f3f875f15ed2d23a706ffaf408d1714e51d29
+file.0=C\:\\Users\\jmpuentenueva\\Documents\\GitHub\\2DAM\\Modulos\\PMDM\\SerializerBasico\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_8ae74bdc7b407a691f0690aa4463f0f7caa2612a\\classes.dex

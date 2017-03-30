@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndaluciaCompromisoDigital</string>
+    <string name="campo1_nombre">Name:</string>
+    <string name="campo2_apellidos">Surname:</string>
+    <string name="campo3_correoE">E-Mail:</string>
+    <string name="campo4_nif">NIF/NIE</string>
+    <string name="campo5_discapacidad">Disability (if there is):</string>
+    <string name="campo6_tlfn">Telephone:</string>
+    <string name="campo7_fecha">Birthdate:</string>
+</resources>

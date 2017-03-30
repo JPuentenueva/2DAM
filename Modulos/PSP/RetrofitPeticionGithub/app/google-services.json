@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "82969684067",
+    "firebase_url": "https://elquemesalgadeloscojones.firebaseio.com",
+    "project_id": "elquemesalgadeloscojones",
+    "storage_bucket": "elquemesalgadeloscojones.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82969684067:android:05ae4bcf28a11fbc",
+        "android_client_info": {
+          "package_name": "psp.callsretrofit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82969684067-4foam9nhgbt32sfmncdj72kulr479pj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "psp.callsretrofit",
+            "certificate_hash": "02D7976863061762D95B6B60799AC62CE51516D7"
+          }
+        },
+        {
+          "client_id": "82969684067-sfpetmk7hf26adiv34jmtgm36de7lr4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKsZNcR6HMT4YVSNPumbTcJG0w5rUubQ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82969684067-sfpetmk7hf26adiv34jmtgm36de7lr4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

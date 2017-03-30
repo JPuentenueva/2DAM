@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Cronometro</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<div id="circulo">
+  <div id="contenedor">
+    <div class="tiempo">
+  		<div class="reloj" id="Horas">00</div>
+  		<div class="reloj" id="Minutos">:00</div>
+  		<div class="reloj" id="Segundos">:00</div>
+  		<div class="reloj" id="Centesimas">:00</div>
+    </div>
+    <div class="opciones">
+  		<input type="button" class="boton" id="inicio" value="Start &#9658;" onclick="inicio();">
+  		<input type="button" class="boton" id="parar" value="Stop &#8718;" onclick="parar();" disabled>
+  		<input type="button" class="boton" id="continuar" value="Resume &#8634;" onclick="inicio();" disabled>
+  		<input type="button" class="boton" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>
+    </div>
+  </div>
+</div>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

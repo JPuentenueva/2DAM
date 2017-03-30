@@ -1,0 +1,22 @@
+TAREAS BASICAS PARA DESARROLLAR UN MODULO DE ODOO
+
+1) Scaffold (google: odoo scaffold)
+2) Modelo (models.py)
+3) La vista (en fichero views/views.xml)
+  NO TENEMOS QUE HACER
+  - Vista por defecto
+  SI TENEMOS QUE HACER
+  -Definir una acción
+  -Definir el menú
+4) Revisar el manifiesto (__openerp.py)
+
+PARA INSTALAR
+
+1) Dos opciones
+  I) Copiar el modelo dentro de la carpeta addons
+  II) Añadir una nueva ruta a la variable addons_path en openerp-serve.conf
+2) Acceder a Odoo (Acerca de)
+3) Activar el modo desarrollador
+4) Aplicaciones > Actualizar la lista de modulos
+Deshabilitar el filtro "aplicaciones"
+Pulsar sobre el botón instalar

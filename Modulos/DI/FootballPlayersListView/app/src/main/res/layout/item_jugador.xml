@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_football_player"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNombre"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="17dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:background="@color/purple"
+        android:textColor="@color/blanco" />
+
+    <TextView
+        android:text="Equipo"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewEquipo"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="29dp"
+        android:layout_marginEnd="29dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_width="150dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_starvoid"
+        android:id="@+id/imageViewStar1"
+        android:layout_below="@+id/textViewEdad"
+        android:layout_alignLeft="@+id/textViewEdad"
+        android:layout_alignStart="@+id/textViewEdad"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_starvoid"
+        android:id="@+id/imageViewStar2"
+        android:layout_alignTop="@+id/imageViewStar1"
+        android:layout_toRightOf="@+id/imageViewStar1"
+        android:layout_toEndOf="@+id/imageViewStar1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_starvoid"
+        android:id="@+id/imageViewStar3"
+        android:layout_alignTop="@+id/imageViewStar2"
+        android:layout_toRightOf="@+id/imageViewStar2"
+        android:layout_toEndOf="@+id/imageViewStar2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_starvoid"
+        android:id="@+id/imageViewStar4"
+        android:layout_alignTop="@+id/imageViewStar3"
+        android:layout_toRightOf="@+id/imageViewStar3"
+        android:layout_toEndOf="@+id/imageViewStar3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_starvoid"
+        android:id="@+id/imageViewStar5"
+        android:layout_alignTop="@+id/imageViewStar4"
+        android:layout_toRightOf="@+id/imageViewStar4"
+        android:layout_toEndOf="@+id/imageViewStar4" />
+
+    <TextView
+        android:text="Edad"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewEdad"
+        android:textSize="12sp"
+        android:layout_below="@+id/textViewEquipo"
+        android:layout_alignLeft="@+id/textViewEquipo"
+        android:layout_alignStart="@+id/textViewEquipo"
+        android:layout_width="150dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_soccer_ball_variant"
+        android:id="@+id/imageView7"
+        android:layout_below="@+id/imageViewStar1"
+        android:layout_alignLeft="@+id/imageViewStar1"
+        android:layout_alignStart="@+id/imageViewStar1"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:text="00"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNumGoles"
+        android:layout_alignBottom="@+id/imageView7"
+        android:layout_toRightOf="@+id/imageView7"
+        android:layout_toEndOf="@+id/imageView7"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_cup"
+        android:id="@+id/imageView8"
+        android:layout_alignBottom="@+id/textViewNumCopas"
+        android:layout_toRightOf="@+id/imageViewStar3"
+        android:layout_toEndOf="@+id/imageViewStar3" />
+
+    <TextView
+        android:text="00"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNumCopas"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textViewNumGoles"
+        android:layout_alignBottom="@+id/textViewNumGoles"
+        android:layout_toRightOf="@+id/imageView8"
+        android:layout_toEndOf="@+id/imageView8" />
+
+    <Button
+        android:text="View Profile"
+        android:textColor="@color/blanco"
+        android:drawableRight="@drawable/ic_next"
+        android:layout_alignTop="@+id/textViewNombre"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_alignStart="@+id/imageView7"
+        android:id="@+id/button"
+        android:background="@color/morao"
+        android:layout_height="35dp"
+        android:layout_width="145dp" />
+    ... />
+</RelativeLayout>

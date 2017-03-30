@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Academia</string>
+    <string-array name="strings_centros_escolares">
+        <item>Salesianos San Pedro (Triana)</item>
+        <item>Salesianos Trinidad (Sevilla)</item>
+        <item>IES Triana</item>
+        <item>IES Velázquez</item>
+        <item>IES Gustavo Adolfo Bécquer</item>
+    </string-array>
+    <string-array name="provincias">
+        <item></item>
+    </string-array>
+</resources>

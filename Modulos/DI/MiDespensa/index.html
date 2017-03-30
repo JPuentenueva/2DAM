@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Despensa</title>
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!--<script>
+    $(document).ready(function() {
+      $("#myModal").modal("hide");
+      $(document).on("click", ".boton", abrirModalAnyadir());
+
+
+      $( "ul.droptrue" ).sortable({
+          connectWith: "ul"
+        });
+
+        $( "ul.dropfalse" ).sortable({
+          connectWith: "ul"
+        });
+
+        $( "#sortable1, #sortable2, #sortable3, #sortable4, #sortable5, #sortable6").disableSelection();
+
+    });
+  </script>-->
+
+</head>
+<body>
+
+<div class="categoria" id="categoria1" class="primera">
+  <h2 class="cabeceraLista">Refrigerados</h2>
+  <div class="cajaBotones">
+    <input type="image" src="imgs/add.png" class="boton">
+  </div>
+  <ul id="sortable1" class="droptrue">
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="categoria" id="categoria2">
+  <h2 class="cabeceraLista">Congelados</h2>
+    <div class="cajaBotones">
+    <input type="image" src="imgs/add.png" class="boton">
+  </div>
+  <ul id="sortable2" class="droptrue">
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="categoria" id="categoria3">
+  <h2 class="cabeceraLista">Frutas/Verduras</h2>
+  <div class="cajaBotones">
+    <input type="image" src="imgs/add.png" class="boton">
+  </div>
+  <ul id="sortable3" class="droptrue">
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="categoria" id="categoria4">
+  <h2 class="cabeceraLista">Lácteos</h2>
+  <div class="cajaBotones">
+    <input type="image" src="imgs/add.png" class="boton">
+    </div>
+  <ul id="sortable4" class="droptrue">
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="categoria" id="categoria5">
+  <h2 class="cabeceraLista">Alimentación</h2>
+  <div class="cajaBotones">
+    <input type="image" src="imgs/add.png" class="boton">
+  </div>
+  <ul id="sortable5" class="droptrue">
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div id="categoria6" class="ultima">
+  <h2 class="cabeceraLista">Bebidas</h2>
+  <div class="cajaBotones">
+    <input type="image" src="imgs/add.png" class="boton">
+  </div>
+  <ul id="sortable6" class="droptrue">
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+    <li class="ui-state-default">
+      <span class="nomProd">Platano</span>
+      <span class="canProd">70</span>
+      <div class="botonesCantidad">
+        <input type="image" class="btnCant aumentar" src="imgs/up-arrow.png"></input>
+        <input type="image" class="btnCant reducir" src="imgs/down-arrow.png"></input>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<br style="clear:both">
+
+<div class="modal fade" id="myModal" idCategoria="0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Añadir Producto</h4>
+                </div>
+                <div class="modal-body">
+                    <label>Producto: </label><input id="modalName" type="text" name="nombre"> <br>
+                    <label>Cantidad: </label><input id="modalQuantity" type="number" name="cantidad"> <br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="btnGuardarCambios">Añadir producto/s</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_buscar_alumno"
+        android:title="Buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_anyadir_alumno"
+        android:title="Tomar foto"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_actualizar"
+        android:title="Actualizar"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/action_editar_alumno"
+        android:title="Editar alumno"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/action_logout"
+        android:title="Salir"
+        android:orderInCategory="2"/>
+</menu>

@@ -1,0 +1,85 @@
+
+  #sortable1, #sortable2, #sortable3, #sortable4, #sortable5, #sortable6 { 
+    list-style-type: none; 
+    margin: 0px; 
+    float: left; 
+    background: #ffff00; 
+    padding: 0px; 
+    width: 190px; 
+    min-height: 34px;
+  }
+  
+  #sortable1 li, #sortable2 li, #sortable3 li, #sortable4 li, #sortable5 li, #sortable6 li { 
+    border: solid 1px gray; 
+    margin: 0px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    font-size: 1.2em; 
+    width: 100%;
+    overflow: auto;
+  }
+  
+  #categoria1, #categoria2, #categoria3, #categoria4, #categoria5, #categoria6 { 
+    width: 192px; 
+    border: solid 1px black; 
+    display: block; 
+    float: left; 
+  }
+
+  .cajaBotones {
+    border-bottom: solid 1px black; 
+    height: 35px;
+    width: 100%;
+  }
+
+  .boton {
+    margin-left: 40%;
+    width: 30px;
+    height: 30px;
+  }
+
+  .primera {
+    border-radius: 15px 0px 0px 0px; 
+  }
+
+  .ultima {
+    border-radius: 0px 15px 0px 0px; 
+  }
+
+  .cabeceraLista {
+    text-align: center; 
+    height: 50px; 
+    font-size: 20px; 
+    padding-top: 15px; 
+    margin: 0px; 
+  }
+  
+  .nomProd {
+    float: left;
+    display: block;
+    width: 60%;
+    margin-left: 10px;
+  }
+
+  .cantProd {
+    float: left;
+    display: block;
+    width: 5%;
+  }
+
+  .botonesCantidad {
+    width: 10%;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .btnCant {
+    width: 10px;
+    height: 10px;
+    display: block;
+    float: left;
+    margin: 1px 0px 0px 0px;
+    padding: 0px;
