@@ -1,0 +1,20 @@
+import java.util.Random;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public void generarPrimos(){
+		int numerosPrimos = 0;
+		
+		while(numerosPrimos <= 100){
+			long currNum = (long) Math.random();
+			if(currNum.isPrimo){
+				numerosPrimos++;
+			}
+		}
+	}
+}

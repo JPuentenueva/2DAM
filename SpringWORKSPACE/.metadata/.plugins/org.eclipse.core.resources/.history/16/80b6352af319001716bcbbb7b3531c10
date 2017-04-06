@@ -1,0 +1,21 @@
+
+public class Hilo extends Thread{
+	
+	@Override
+	public void run() {
+		generarPrimos();
+	}
+	
+	
+	public void generarPrimos(){
+		int numerosPrimos = 0;
+		
+		while(numerosPrimos <= 100){
+			long currNum = (long) Math.random();
+			if(Utils.isPrime(currNum)){
+				numerosPrimos++;
+				System.out.println(numerosPrimos+"- "+currNum);
+			}
+		}
+	}
+}

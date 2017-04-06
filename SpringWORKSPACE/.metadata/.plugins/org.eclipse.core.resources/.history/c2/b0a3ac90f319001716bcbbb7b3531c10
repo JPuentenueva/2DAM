@@ -1,0 +1,18 @@
+
+public class Utils {
+	
+	public static boolean isPrime(double n){
+		boolean esPrimo = true;
+		long div = 2;
+		long tope = (long) Math.sqrt(n);
+		while (esPrimo && div <= tope) {
+			double res = n % div;
+			if (res == 0)
+				esPrimo = false;
+			else 
+				div++;
+		}
+		return esPrimo;
+	}
+
+}

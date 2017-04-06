@@ -1,0 +1,31 @@
+import java.util.Random;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public void generarPrimos(){
+		int numerosPrimos = 0;
+		
+		while(numerosPrimos <= 100){
+			long currNum = (long) Math.random();
+			if(Utils.isPrime(currNum)){
+				numerosPrimos++;
+				System.out.println(numerosPrimos+"- "+currNum);
+			}
+		}
+	}
+	
+	public class Hilo extends Thread {
+
+		@Override
+		public void run() {
+			generarPrimos();
+		}
+		
+	}
+
+}
